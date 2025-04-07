@@ -1,7 +1,8 @@
 :root {
   --text: #ffffff;
-  --bg: black;
+  --bg: #090909;
 }
+
 *{
   margin: 0;
   padding: 0;
@@ -20,5 +21,3 @@ section{
   min-height: 80vh;
   padding-top: 2.5vh;
 }
-
-  
