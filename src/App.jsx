@@ -3,7 +3,6 @@ import { Btn } from "./components/btn";
 import { Menu } from "./components/menu";
 import { Card } from "./components/card";
 
-import p1 from "./assets/images/p1.jpeg";
 import { cards } from './assets/mock/cards';
 
 import { useState } from "react";
@@ -35,7 +34,7 @@ function App() {
 
   return (
     <>
-      <Menu s1="Home" s2="Sessão 2" s3="CONTATO" s4="Calculos" s5="Consumindo API" />
+      <Menu s1="HOME" s2="CONTATO" s3="MAPA CEP" s4="CÁLCULOS" s5="CONSUMINDO API" />
       <main>
         <section id="s1" className={style.s1}>
           {/* <Btn text="proxima sessão" func="#s2"/> <br /> */}

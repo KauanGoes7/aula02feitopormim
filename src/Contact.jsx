@@ -69,7 +69,7 @@ function Contact() {
 
   return (
     <>
-      <Menu s1="opa" s3="CONTATO" s4="batata" />
+      <Menu s1="HOME" s3="CONTATO" s4="CÁLCULOS" />
       <br /><br /><br /><br />
       <h1>CONTATO</h1>
       <input type="text" placeholder="Insira o CEP" onChange={handleCep} />
